@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact ANKS Property Management</title>
+  <meta name="description" content="Contact ANKS Property Management for property operations, short-term rental support, housekeeping, inspections, and maintenance coordination." />
+  <meta name="theme-color" content="#A8DDD2" />
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header" data-header>
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html" aria-label="ANKS Property Management home">
+        <span class="brand-mark">A</span>
+        <span class="brand-text">
+          <strong>ANKS</strong>
+          <small>Property Management</small>
+        </span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-nav-toggle>
+        <span class="sr-only">Open menu</span>
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" data-nav>
+        <a href="index.html#services">Services</a>
+        <a href="index.html#difference">Why ANKS</a>
+        <a href="index.html#process">Process</a>
+        <a href="index.html#network">Future Platform</a>
+        <a class="nav-cta" href="contact.html" aria-current="page">Contact Us</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="contact-hero section-pad">
+      <div class="container contact-grid">
+        <div class="contact-copy">
+          <p class="eyebrow">Contact ANKS</p>
+          <h1>Tell us what kind of property support you need.</h1>
+          <p>Use the form for owner inquiries, short-term rental support, housekeeping coordination, inspections, turnover support, or maintenance coordination. Only email is required for reply. Mobile number is optional.</p>
+          <div class="contact-email-box">
+            <span class="mono-label">EMAIL</span>
+            <a href="mailto:hello@ankspropertymanagement.ca">hello@ankspropertymanagement.ca</a>
+          </div>
+        </div>
+
+        <form class="contact-form" action="https://formsubmit.co/hello@ankspropertymanagement.ca" method="POST">
+          <!-- Replace hello@ankspropertymanagement.ca in the action above with the confirmed ANKS email before publishing. -->
+          <input type="hidden" name="_subject" value="New ANKS Property Management Inquiry" />
+          <input type="hidden" name="_captcha" value="false" />
+          <input type="text" name="_honey" class="honeypot" tabindex="-1" autocomplete="off" />
+
+          <div class="form-row">
+            <label for="name">Full name</label>
+            <input id="name" name="name" type="text" autocomplete="name" required />
+          </div>
+
+          <div class="form-row">
+            <label for="email">Email address</label>
+            <input id="email" name="email" type="email" autocomplete="email" required />
+          </div>
+
+          <div class="form-row">
+            <label for="mobile">Mobile number <span>optional</span></label>
+            <input id="mobile" name="mobile" type="tel" autocomplete="tel" />
+          </div>
+
+          <div class="form-row two-col">
+            <div>
+              <label for="property-type">Property type</label>
+              <select id="property-type" name="property_type" required>
+                <option value="">Select one</option>
+                <option>Short-term rental</option>
+                <option>Vacation rental</option>
+                <option>Furnished rental</option>
+                <option>Long-term rental</option>
+                <option>Homeowner support</option>
+                <option>Other</option>
+              </select>
+            </div>
+            <div>
+              <label for="location">Property location</label>
+              <input id="location" name="property_location" type="text" placeholder="City / area" required />
+            </div>
+          </div>
+
+          <div class="form-row">
+            <label for="support">Support needed</label>
+            <select id="support" name="support_needed" required>
+              <option value="">Select one</option>
+              <option>Full short-term rental operations</option>
+              <option>Housekeeping and turnover support</option>
+              <option>Property inspections</option>
+              <option>Maintenance coordination</option>
+              <option>Guest communication support</option>
+              <option>Not sure yet</option>
+            </select>
+          </div>
+
+          <div class="form-row">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="6" placeholder="Share property details, current challenge, rental goal, or service requirement." required></textarea>
+          </div>
+
+          <button class="button primary form-button" type="submit">Send inquiry</button>
+          <p class="form-note">This static form uses FormSubmit. The first submission may require email verification before messages start forwarding.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="brand footer-brand" href="index.html" aria-label="ANKS Property Management home">
+          <span class="brand-mark">A</span>
+          <span class="brand-text">
+            <strong>ANKS</strong>
+            <small>Property Management</small>
+          </span>
+        </a>
+        <p>Professional property operations, housekeeping, guest experience management, inspections, and maintenance coordination.</p>
+      </div>
+      <div>
+        <h3>Contact</h3>
+        <p><a href="mailto:hello@ankspropertymanagement.ca">hello@ankspropertymanagement.ca</a></p>
+        <p class="footer-note">Replace this placeholder email with the confirmed ANKS email before publishing.</p>
+      </div>
+      <div>
+        <h3>Quick Links</h3>
+        <a href="index.html#services">Services</a>
+        <a href="index.html#difference">Why ANKS</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>
